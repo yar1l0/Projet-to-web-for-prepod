@@ -1,0 +1,10 @@
+@mixin display($jc) {
+    display: flex;
+    justify-content: $jc;
+}
+
+@mixin fonts($family, $weight, $size) {
+    font-family: $family;
+    font-weight: $weight;
+    font-size: $size;
+}
